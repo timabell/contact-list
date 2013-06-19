@@ -1,10 +1,9 @@
 Feature: Contact search
-	As a user I want to searchfor a contact
+	As a user I want to search for a contact
 	so that I can find the person I'm looking for
 
 	Scenario: Search by last name
-		Given I have a contact "fred" "bloggs"
-		And I have a contact "john" "smith"
-		When I search for "bloggs"
-		Then The results should include "blogs"
-		And The results should not include "smith"
+		In order to find the person I'm looking for when I have their last name
+		* I want to search for a contact by last name
+
+	# TODO: extend search with further search terms
