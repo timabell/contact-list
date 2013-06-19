@@ -1,5 +1,6 @@
 Feature: A contact must be able to store relevant information
-	So that I can contact people in different ways (needs more detail)
+	So that I can contact people in different ways
+	(This feature needs five-whys appling to get to root need)
 
 	Scenario: Fields for each contact
 		a contact must have:
@@ -10,4 +11,3 @@ Feature: A contact must be able to store relevant information
 		* landline number (optional)
 		* twitter account (optional)
 		* photo (optional)
-
