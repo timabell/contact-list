@@ -7,6 +7,12 @@
 # As these are devoid of implementation detail they should stand the test of time
 #  only needing to be changed when the customer's domain / requirements actually change.
 #
+# The choice of whether to use Given/When/Then or just '*' steps is taken based
+#  on the level of detail the customer is comfortable with and interested in.
+#  If the individual steps a user takes are important to the customer then a detailed
+#  step list will be given, else (as is mostly the case here) just the high level need
+#  is documented with a '*' step.
+#
 # ~ Tim Abell <tim@timwise.co.uk> Jun 2013
 
 Feature: Contacts List
