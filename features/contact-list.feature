@@ -21,8 +21,9 @@
 
 Feature: Contacts List
 	As a user
-	I want to see a list of contacts
-	so that I can keep track of people I know
+	I want a way of storing all my contacts
+	so that I can contact people in the future and stop losing
+	those pesky business cards.
 
 	Scenario: Contact list display
 		In order to keep track of people I know:
