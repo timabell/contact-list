@@ -86,7 +86,7 @@ Then(/^The error message "(.*?)" should be shown$/) do |arg1|
     pending # express the regexp above with the code you wish you had
 end
 
-When(/^I add a contact "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)"$/) do |arg1, arg2, arg3, arg4, arg5, arg6, arg7|
+When(/^I add a contact "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)", "(.*?)"$/) do |first_name, last_name, email_address, mobile_number, landline_number, twitter_account, photo|
     pending # express the regexp above with the code you wish you had
 end
 
