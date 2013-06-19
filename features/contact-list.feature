@@ -13,6 +13,10 @@
 #  step list will be given, else (as is mostly the case here) just the high level need
 #  is documented with a '*' step.
 #
+# I've taken a couple of small liberties with the wording that I would normally then
+#  agree with the customer is an improvement or change them to something better.
+#  The key here is that everyone is clear and it's easy to follow.
+#
 # ~ Tim Abell <tim@timwise.co.uk> Jun 2013
 
 Feature: Contacts List
@@ -22,20 +26,20 @@ Feature: Contacts List
 
 	Scenario: Contact list display
 		In order to keep track of people I know:
-		* I should be able to view a list of contacts
+		* I want to see a list of contacts
 
 	Scenario: View a contact
 		When I view a contact
-		Then I should see their details
+		Then I can see their details
 
 	Scenario: Add a contact
 		In order to increase my contact list:
-		* I should be able to add a contact
+		* I want to be able to add a contact
 
 	Scenario: Edit a contact
 		In order to change details as required:
-		* I should be able to edit a contact's details
+		* I want to be able to edit a contact's details
 
 	Scenario: Remove a contact
 		In order to remove people I don't like any more
-		* I should be able to remove a contact
+		* I want to be able to remove a contact
