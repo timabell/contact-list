@@ -34,6 +34,7 @@ end
 
 group :test, :development do
   gem 'cucumber'
+  gem 'cucumber-rails'
 end
 
 # Use ActiveModel has_secure_password
