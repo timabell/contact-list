@@ -11,8 +11,8 @@ Feature: A contact must be able to store relevant information
 
 		Examples:
 			| first_name | last_name | email_address | mobile_number | landline_number | twitter_account | photo |
-			| "fred"     | "bloggs"  | "fred@eg.com" | "0721-12121"  | "0121-12121"    | "@fred"         | nil   |
-			| "jo"       | "smith"   | "jo@eg.com"   | "0721-12166"  | nill            | nill            | nil   |
+			| "fred"     | "bloggs"  | "fred@eg.com" | "0721-12121"  | "0121-12121"    | "@fred"         | ""    |
+			| "jo"       | "smith"   | "jo@eg.com"   | "0721-12166"  | ""              | ""              | ""    |
 
 	Scenario Outline: Don't allow adding a contact with not enough information
 		so that I don't forget anything
@@ -23,7 +23,7 @@ Feature: A contact must be able to store relevant information
 
 		Examples:
 			| first_name | last_name | email_address | mobile_number | landline_number | twitter_account | photo |
-			| nill       | "smith"   | "jo@eg.com"   | "0721-12166"  | nill            | nill            | nil   |
-			| "jo"       | nill      | "jo@eg.com"   | "0721-12166"  | nill            | nill            | nil   |
-			| "jo"       | "smith"   | nill          | "0721-12166"  | nill            | nill            | nil   |
-			| "jo"       | "smith"   | "jo@eg.com"   | nill          | nill            | nill            | nil   |
+			| ""         | "smith"   | "jo@eg.com"   | "0721-12166"  | ""              | ""              | ""    |
+			| "jo"       | ""        | "jo@eg.com"   | "0721-12166"  | ""              | ""              | ""    |
+			| "jo"       | "smith"   | ""            | "0721-12166"  | ""              | ""              | ""    |
+			| "jo"       | "smith"   | "jo@eg.com"   | ""            | ""              | ""              | ""    |
