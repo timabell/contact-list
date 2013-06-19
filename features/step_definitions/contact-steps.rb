@@ -89,3 +89,7 @@ end
 Then(/^The cat picture should show when I view the contact$/) do
   pending # express the regexp above with the code you wish you had
 end
+
+Then(/^The error message "(.*?)" should be shown$/) do |arg1|
+    pending # express the regexp above with the code you wish you had
+end
