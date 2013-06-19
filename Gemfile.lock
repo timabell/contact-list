@@ -133,7 +133,6 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  cucumber
   cucumber-rails
   jbuilder (~> 1.2)
   jquery-rails
