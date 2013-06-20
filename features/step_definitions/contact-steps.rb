@@ -7,6 +7,11 @@ Given(/^A contact may have an?\s+"(.*?)"$/) do |arg1|
 end
 
 Given(/^I want to see a list of contacts$/) do
+  # Note that as the business hasn't specified *where* they want the contact
+  # list, this decision is not defined in the feature file, and is instead
+  # assumed to be on the front page here. This can be changed later if desired
+  # but for now we're going for YAGNI (You Ain't Gonna Need It)
+
   # TODO: Seed the database
   # Open the front page (which will have the contact list on it)
   visit root_path
