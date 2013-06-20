@@ -41,3 +41,8 @@ Things I would like to see in this app if it had a real customer.
 * Spinach, maybe.
 * Proper interaction with the customer over specifications and tests.
 * Code review / pair programming
+
+Code changes that should be done
+* Tidy up / replace the scaffold contact model
+* Add more meaningful tests to the contact model
+* Fix duplication of routes / + /contact
