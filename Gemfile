@@ -49,3 +49,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Pull in a ready-made styling system from
+# https://github.com/anjlab/bootstrap-rails
+gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
+                              :git => 'git://github.com/anjlab/bootstrap-rails.git',
+                              :branch => '3.0.0'
