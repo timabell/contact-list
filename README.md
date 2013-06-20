@@ -31,3 +31,12 @@ Run the behaviour tests with
 	 bin/rake cucumber
 
 I considered [Spinach](http://codegram.github.io/spinach/) but didn't want to over-engineer this. For a real app this would be a discussion with the client.
+
+Todos
+-----
+Things I would like to see in this app if it had a real customer.
+* A CI build
+* Spork config
+* Designs from professional designers
+* Spinach, maybe.
+* Proper interaction with the customer over specifications and tests.
