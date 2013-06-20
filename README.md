@@ -5,6 +5,12 @@ Contact list example app by Tim Abell <tim@timwise.co.uk>
 
 An exercise in creating a simple Rails application with BDD.
 
+I've concentrated on keeping the Cucumber / Gherkin feature descrptions a good match for what was originally supplied and therefore easy to understand and validate with the client, whilst also making it a runnable spec.
+
+I've then started writing the step definitions to define how these business requirements should be fulfilled.
+
+I've used scaffold to get a per-spec application up and running quickly but with the caveat that for a real app a lot of the scaffold code would likely get thrown away and rewritten. I've been writing non-scaffold code too thanks to the excellent [RailsTutorial.org](http://railstutorial.org)
+
 Tests
 -----
 
