@@ -8,7 +8,7 @@
       <div><%= contact.mobile %></div>
       <div><%= contact.landline %></div>
       <div><%= contact.twitter %></div>
-      <div><%= contact.photo %></div>
+      <div><img src="<%= contact.photo %>" alt="Picture of <%=contact.first_name%>" class="contact-card-photo"/></div>
       <div><%= link_to 'Show', contact %> |
       <%= link_to 'Edit', edit_contact_path(contact) %> |
       <%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></div>
