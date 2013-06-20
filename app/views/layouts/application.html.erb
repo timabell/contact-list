@@ -19,12 +19,12 @@ it would be suitable for a real customer's app. ~ Tim
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="brand" href="#">Project name</a>
+        <a class="brand" href="/">Contact List by Tim Abell</a>
         <div class="nav-collapse collapse">
           <ul class="nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><%= link_to 'Contacts', root_path %></li>
+            <li><%= link_to 'New Contact', new_contact_path %></li>
+            <li><a href="mailto:tim@timwise.co.uk?subject=Great%20app%20when%20can%20you%20start%3F">@email Tim</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
