@@ -15,7 +15,10 @@ Given(/^I want to see a list of contacts$/) do
   # TODO: Seed the database
   # Open the front page (which will have the contact list on it)
   visit root_path
-  # TODO: Validate that the seeded records are displayed (email is fine)
+  # Validate that the seeded records are displayed (email is enough to know
+  # that the right records have loaded and displayed)
+  expect(page).to have_content('fsm@ether.net')
+  expect(page).to have_content('shaun@shaunthesheep.com')
 end
 
 When(/^I view a contact$/) do
