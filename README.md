@@ -1,7 +1,8 @@
 contact-list
 ============
 
-contact-list example app
+Contact list example app by Tim Abell <tim@timwise.co.uk>
+An exercise in creating a simple Rails application with BDD.
 
 I considered [Spinach](http://codegram.github.io/spinach/) but didn't want to over-engineer this. For a real app this would be a discussion with the client.
 
