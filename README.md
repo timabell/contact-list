@@ -9,7 +9,19 @@ I've concentrated on keeping the Cucumber / Gherkin feature descrptions a good m
 
 I've then started writing the step definitions to define how these business requirements should be fulfilled.
 
-I've used scaffold to get a per-spec application up and running quickly but with the caveat that for a real app a lot of the scaffold code would likely get thrown away and rewritten. I've been writing non-scaffold code too thanks to the excellent [RailsTutorial.org](http://railstutorial.org)
+I've used scaffold to get a per-spec application up and running quickly but with the caveat that for a real app a lot of the scaffold code would likely get thrown away and rewritten. It's worth mentioning that aside from this app I've been practicing writing non-scaffold code as part of following the excellent [RailsTutorial.org](http://railstutorial.org)
+
+The basic CRUD model is already working thanks to the Rails scaffold, but not as tested as it would be in a real app. Only the contact list is tested so far, however this test is complete and driven by the business spec, complete with simple test data.
+
+I've pulled in twitter bootstrap to get some half-decent styling in short space of time, this still needs a lot of work and designer love but you can see the kind of thing I might do in spite of the jagged edges still present. I'm perfectly comfortable crafting css / js myself and like the sass and coffeescript systems.
+
+I spent a small piece of time roughly laying out and styling the contact list page (see screenshot) just to how I'm comfortable with html/css.
+
+There's a lot left to do on this to meet the full spec but I don't want to delay too long. (Think of it as the output of the first sprint!) This is a representation of what I can achieve in a few hours being being new to Rails, but any commercial I work on will be a lot more complete and high quality than what you see herein.
+
+I haven't started on ajaxification yet, but am comfortable with the language and concepts around providing / consuming a (REST) API.
+
+I hope this gives you some idea that I'm rapidly getting up to speed with Rails and related technologies and that I'm ready to take on some complex real-world business challenges.
 
 Tests
 -----
