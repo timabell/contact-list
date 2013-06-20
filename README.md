@@ -40,3 +40,4 @@ Things I would like to see in this app if it had a real customer.
 * Designs from professional designers
 * Spinach, maybe.
 * Proper interaction with the customer over specifications and tests.
+* Code review / pair programming
