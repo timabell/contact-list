@@ -2,9 +2,11 @@ contact-list
 ============
 
 Contact list example app by Tim Abell <tim@timwise.co.uk>
+
 An exercise in creating a simple Rails application with BDD.
 
-I considered [Spinach](http://codegram.github.io/spinach/) but didn't want to over-engineer this. For a real app this would be a discussion with the client.
+Tests
+-----
 
 The requirements are captured in cucumber feature files and used to drive development (BDD)
 
@@ -27,3 +29,5 @@ The requirements are captured in cucumber feature files and used to drive develo
 Run the behaviour tests with
 
 	 bin/rake cucumber
+
+I considered [Spinach](http://codegram.github.io/spinach/) but didn't want to over-engineer this. For a real app this would be a discussion with the client.
