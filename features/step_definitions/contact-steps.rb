@@ -7,10 +7,10 @@ Given(/^A contact may have an?\s+"(.*?)"$/) do |arg1|
 end
 
 Given(/^I want to see a list of contacts$/) do
-  # Seed the database
+  # TODO: Seed the database
   # Open the front page (which will have the contact list on it)
-  # Validate that the seeded records are displayed (email is fine)
-  assert(fail)
+  visit root_path
+  # TODO: Validate that the seeded records are displayed (email is fine)
 end
 
 When(/^I view a contact$/) do
