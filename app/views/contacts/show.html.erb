@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @contact.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @contact.last_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @contact.email %>
+</p>
+
+<p>
+  <strong>Mobile:</strong>
+  <%= @contact.mobile %>
+</p>
+
+<p>
+  <strong>Landline:</strong>
+  <%= @contact.landline %>
+</p>
+
+<p>
+  <strong>Twitter:</strong>
+  <%= @contact.twitter %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @contact.photo %>
+</p>
+
+<%= link_to 'Edit', edit_contact_path(@contact) %> |
+<%= link_to 'Back', contacts_path %>
